@@ -1,0 +1,24 @@
+{
+  "contracts": ["contracts/**"],
+ "app": {
+   "css/app.css": ["app/css/**"],
+   "js/app.js": ["app/js/index.js"],
+   "index.html": "app/index.html",
+    "Consortium.html": "app/Consortium.html",
+    "Live_Transactions.html":"app/Live_Transactions.html",
+    "login.html":"app/login.html",
+    "js":["app/js/**"],
+    "img":["app/img/**"],
+    "images":["app/images/**"],
+    "css/grayscale.css":"app/css/grayscale.css"
+       },
+ "buildDir": "dist/",
+ "config": "config/",
+ "versions": {
+   "web3": "1.0.0-beta",
+   "solc": "0.4.24",
+   "ipfs-api": "17.2.4"
+ },
+ "plugins": {
+ }
+}
