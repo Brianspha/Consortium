@@ -44,10 +44,15 @@ event AddressLogger(address id);
 
     struct Claim
     {
-        unit256 Reference; //@Dev unique value for each claim
+        uint256 Reference; //@Dev unique value for each claim
         address ClaimerId;//@Dev used to identify recipient whos claim this is
         uint256 amount;//@Dev the amount that was paid out
-        bool Approved;//@Dev indicates whether or not the claim has been approved or not 
+        uint256 State;//@Dev indicates whether or not the claim has been approved or not 
+        // state is a value from 1 to 4. 
+        //1 = holding 
+        //2 = pending payout 
+        //3 = paid out
+        //4 = expired
     }
     //@Dev represents an insurance company
     struct InsuranceCompnay
