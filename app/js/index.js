@@ -1,9 +1,6 @@
 import EmbarkJS from 'Embark/EmbarkJS';
-import DoctorContract from 'Embark/contracts/DoctorContract';
 import InsuranceHolder from 'Embark/contracts/InsuranceHolder';
 import GovernmentLedger from 'Embark/contracts/GovernmentLedger';
-import HealthInstitutionLedger from 'Embark/contracts/HealthInstitutionLedger';
-import ExtendedERC721Token from 'Embark/contracts/ExtendedERC721Token';
 
 // import your contracts
 // e.g if you have a contract named SimpleStorage:
@@ -15,9 +12,6 @@ $(document).ready(function ()
   var slayer = require('slayer');
    InsuranceHolder.setProvider(new web3.providers.HttpProvider('http://localhost:8545')); // 8080 for cpp/AZ, 8545 for go/mist
    GovernmentLedger.setProvider(new web3.providers.HttpProvider('http://localhost:8545')); // 8080 for cpp/AZ, 8545 for go/mist
-   HealthInstitutionLedger.setProvider(new web3.providers.HttpProvider('http://localhost:8545')); // 8080 for cpp/AZ, 8545 for go/mist
-   DoctorContract.setProvider(new web3.providers.HttpProvider('http://localhost:8545')); // 8080 for cpp/AZ, 8545 for go/mist
-   ExtendedERC721Token.setProvider(new web3.providers.HttpProvider('http://localhost:8545')); // 8080 for cpp/AZ, 8545 for go/mist
   
    //@Dev for some odd reason this project does not detect the localhost instance so i have to set it manually usually embark does it automatically sigh
   //const abiDecoder = require('abi-decoder'); // NodeJS

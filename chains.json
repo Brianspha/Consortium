@@ -2000,5 +2000,45 @@
       }
     },
     "name": "nodashboard"
+  },
+  "0x8691faef87f96d6150971b9fda0d1f8942976fd88a57fd804fbf45847a7dfbc5": {
+    "contracts": {
+      "0xaea063965c926a94c40592eb7070767811d0ec822889cd7f19f4a2ecf2f22ec6": {
+        "name": "ERC721Token",
+        "address": "0x144b39961bBcA6DAF4AAC289f34B0F598910C89a"
+      },
+      "0x5c205637103018f394016730463d19850addf8d60551c14f1cf6db6b43f231a8": {
+        "name": "strings",
+        "address": "0x889CF57Da3eC108791E967546e8Ecb1830711EF6"
+      },
+      "0xa0259b48424505d068900d1cc71ff6f4b0175dc26500a5434a912780b2455a16": {
+        "name": "AddressUtils",
+        "address": "0xFDE1F3e0c654BA5D9B02aE7140131112988f4C82"
+      },
+      "0x27df9b259fd6d9177c518eed0fb3f8e0aeb249055ef06c811a9588d4ee445956": {
+        "name": "SafeMath",
+        "address": "0x5De59ad1BF1b2CdF382E2bDeBcd98906E463D5eB"
+      },
+      "0x60ec1f9cc78e195042e0521edccd3e09506862ea37ed7bf55e985dc6a6ca6c4b": {
+        "name": "ExtendedERC721Token",
+        "address": "0xD4e99B42c6399dac227bFAfb5a6a7bEEd7b35eF8"
+      },
+      "0xc7b432831a25684072752a20e896978bcd88f684ab79a7ef7cd7f7f55dc67a64": {
+        "name": "HelperFunctions",
+        "address": "0xF653CE6d6870Ebe063bE363AfCb7D4FaF5424A23"
+      },
+      "0xb3fc75dd6bd47a957b0ad49aea15e59b6fcc6c21322e2e44d4de3bb563193412": {
+        "name": "GovernmentLedger",
+        "address": "0xd1FD3e9CAaa9020D85e9c4253dA99228DeeC1A20"
+      },
+      "0x9aefac0df1e722fc608e7a92a3d807c48b4504a4c2a159440066589bc7ba75d5": {
+        "name": "InsuranceClaim",
+        "address": "0x5ee85b23c64D7A5e452e9Df965D41ECF4e603EFB"
+      },
+      "0x5a9c79c1a6e7c5c01dab7018c6a0bbee0d0fc10aa1ab2e2ce60e155c5c2cb885": {
+        "name": "InsuranceHolder",
+        "address": "0x56387E9DB148e0477F7dAA0a94ABCbF107e526b5"
+      }
+    }
   }
 }
