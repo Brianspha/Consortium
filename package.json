@@ -10,7 +10,7 @@
   "homepage": "",
   "devDependencies": {},
   "dependencies": {
-    "abi-decoder": "^1.1.0",
+    "abi-decoder": "^1.2.0",
     "clusterfck": "^1.0.0",
     "dummy-json": "^2.0.0",
     "embark": "^8.0.0",
