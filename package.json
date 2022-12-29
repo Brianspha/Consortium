@@ -10,7 +10,7 @@
   "homepage": "",
   "devDependencies": {},
   "dependencies": {
-    "abi-decoder": "^1.1.0",
+    "abi-decoder": "^1.2.0",
     "clusterfck": "^1.0.0",
     "dummy-json": "^2.0.0",
     "embark": "^8.0.0",
@@ -25,7 +25,7 @@
     "stats-lite": "^2.1.1",
     "trend": "^0.3.0",
     "web3": "^1.0.0-beta.34",
-    "webpack": "^4.12.0",
+    "webpack": "^5.75.0",
     "webpack-config": "^7.5.0"
   }
 }
